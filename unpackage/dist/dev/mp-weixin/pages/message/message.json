@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "mall",
+  "usingComponents": {
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "usingComponents": {
+    "u-tabs-swiper": "/node-modules/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-card": "/node-modules/uview-ui/components/u-card/u-card",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast"
+  }
+}

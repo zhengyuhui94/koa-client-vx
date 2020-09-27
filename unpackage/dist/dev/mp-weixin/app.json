@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/person/person",
+    "pages/good/good",
+    "pages/address/address",
+    "pages/address/add",
+    "pages/address/edit",
+    "pages/order/order",
+    "pages/order/detail",
+    "pages/order/detail2",
+    "pages/evaluate/submit",
+    "pages/evaluate/evaluate",
+    "pages/message/message",
+    "pages/message/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "mall",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#F1F1F1",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/shouye.jpg",
+        "selectedIconPath": "static/shouye.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/cart.jpg",
+        "selectedIconPath": "static/cart.jpg",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/order.jpg",
+        "selectedIconPath": "static/order.jpg",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/message.jpg",
+        "selectedIconPath": "static/message.jpg",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "static/person.jpg",
+        "selectedIconPath": "static/person.jpg",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap32.json"
+}

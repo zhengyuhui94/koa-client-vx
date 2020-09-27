@@ -1,0 +1,135 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "mall"
+			}
+		}
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+				"navigationBarTitleText": "mall"
+			}
+        }
+        ,{
+            "path" : "pages/person/person",
+            "style" : {
+				"navigationBarTitleText": "mall"
+			}
+        }
+		,{
+		    "path" : "pages/good/good",
+		    "style" : {
+				"navigationBarTitleText":"商品详情"
+			}
+		}
+        ,{
+            "path" : "pages/address/address",
+            "style" : {
+				"navigationBarTitleText":"收货地址"
+			}
+        },
+		{
+		    "path" : "pages/address/add",
+		    "style" : {
+				"navigationBarTitleText":"添加收货地址"
+			}
+		},
+		{
+		    "path" : "pages/address/edit",
+		    "style" : {
+				"navigationBarTitleText":"编辑收货地址"
+			}
+		}
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText":"订单列表"
+			}
+        }
+		,{
+		    "path" : "pages/order/detail",
+		    "style" : {
+				"navigationBarTitleText":"订单详情"
+			}
+		}
+		,{
+		    "path" : "pages/order/detail2",
+		    "style" : {
+				"navigationBarTitleText":"订单详情"
+			}
+		}
+        ,{
+            "path" : "pages/evaluate/submit",
+            "style" : {
+				"navigationBarTitleText":"发表评价"
+			}
+        }
+		,{
+		    "path" : "pages/evaluate/evaluate",
+		    "style" : {
+				"navigationBarTitleText":"商品评价"
+			}
+		}
+        ,{
+            "path" : "pages/message/message",
+            "style" : {
+				"navigationBarTitleText": "mall"
+			}
+        }
+		,{
+		    "path" : "pages/message/detail",
+		    "style" : {
+				"navigationBarTitleText": "消息详情",
+				"enablePullDownRefresh": true
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "mall",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#999999",
+		"selectedColor":"#007AFF",
+		"backgroundColor":"#F1F1F1",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/shouye.jpg",
+				"selectedIconPath":"static/shouye.jpg",
+				"text": "首页"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/cart.jpg",
+				"selectedIconPath":"static/cart.jpg",
+				"text": "购物车"
+			},
+			{
+			    "pagePath": "pages/order/order",
+				"iconPath":"static/order.jpg",
+			    "selectedIconPath":"static/order.jpg",
+			    "text": "订单"
+			},
+			{
+			    "pagePath": "pages/message/message",
+				"iconPath":"static/message.jpg",
+			    "selectedIconPath":"static/message.jpg",
+			    "text": "消息"
+			},
+			{
+				"pagePath": "pages/person/person",
+				"iconPath":"static/person.jpg",
+				"selectedIconPath":"static/person.jpg",
+				"text": "个人中心"
+			}
+		]
+	}
+}
